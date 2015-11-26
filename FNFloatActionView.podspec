@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
 
   s.homepage     = "https://github.com/felix8888/FNFloatActionView"
   s.screenshots  = ""
-  s.license      = { :type => "MIT", :file => "LICENSE" }
+  s.license      = { :type => "*", :file => "LICENSE" }
 
   s.author             = { "Felix Niu" => "felix8888.good@gmail.com" }
   s.social_media_url   = "https://www.facebook.com/felix.new.96"
@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/felix8888/FNFloatActionView.git", :tag => "1.0.0" }
 
-  s.source_files  = "**/*.{h,m}"
-  public_header_files = "**/*.h"
+  s.source_files  = "Source/**/*.{h,m}"
+  public_header_files = "Source/**/*.h"
 
   s.frameworks = "UIKit", "Foundation"
 
