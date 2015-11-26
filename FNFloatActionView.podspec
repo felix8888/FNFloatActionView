@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/felix8888/FNFloatActionView.git", :tag => "1.0.0" }
 
-  s.source_files  = "*.{h,m}"
-  public_header_files = "*.h"
+  s.source_files  = "**/*.{h,m}"
+  public_header_files = "**/*.h"
 
   s.frameworks = "UIKit", "Foundation"
 
